@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background:white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); 
+    padding-left: 30px;
+
+    
+   }
+
+.navbar_list{
+    display: flex;
+    gap: 20px;
+}
+
+.logo_name{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(107, 107, 189);
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+ 
+}
+
+.logo{
+    transition: transform 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.navbar_items{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.navbar_items:hover{
+    transform: scale(1.1);
+}
+
+.introduction_heading{
+    margin-top: 20px;
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.btn{
+    background: rgb(107, 107, 189);
+    color: #fff;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.herosection{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 80px;
+
+  
+}
+
+.hero_section_2{
+    width: 400px;
+   margin-right: 400px;
+
+}
+
+.btn_container{
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+    padding-right: 40px;
+   
+}
+
+.hero_image{
+    width: 650px;
+    margin-top: 40px ;
+    margin-right:100px;
+
+}
+
+
+.intro_description{
+    font-size: 30px;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ 
+
+}
+
+.btn_1{
+    background: rgb(107, 107, 189);
+    color: #fff;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+.btn_2{
+    background: rgb(107, 107, 189);
+    color: #fff;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom:25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+
+.introduction{
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+.My_Services{
+    margin-top: 40px;
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.vscode_images{
+    display: flex;
+    gap: 240px;
+    font-size: smaller;
+    
+}
+
+.html{
+    font-size: 40px;
+    margin-left: 15px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.CSS{
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+
+.JS{
+    font-size: 60px;
+    margin-left: 15px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.people_section{
+    margin-top: 20px;
+    font-family: fantasy;
+    
+}
+
+
+.CARD_CONTAINER{
+    display: flex;
+    gap: 350px;
+
+   
+    
+
+}
+
+.card_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+}
+
+
+
+
+.card_image_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    text-align: center;
+   
+}
+
+
+.card_image_3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+
+.main_container{
+    background: #e6e1f1;
+}
+
+.CARD{
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.CARD_2{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+   
+   
+
+}
+
+.CARD_3{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    
+
+    
+}
+
+
+.comment{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.comment_2{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.comment_3{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+.name{
+    font-family: fantasy;
+    font-size: 20px;
+   
+}
+
+
+.name_2{
+    font-family: fantasy;
+    font-size: 20px;
+   
+}
+
+
+.name_3{
+    font-family: fantasy;
+    font-size: 20px;
+   
+}
+
+
+.footer{
+    padding-top: 1px;
+    background: #fff;
+    padding-bottom: 1px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}  
+
+
+.second_hero_section{
+    margin-left: 30px;
+}
+
+.form_card{
+  padding-top: 100px;
+  background: rgb(107, 107, 189);
+}
+
+
+
+
+
+
+.about_INTRO{
+    padding-top: 50px;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+ 
+   
+
+}
+
+.about_paragraph{
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.about_image{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 10px;   
+    margin-left: 30px;
+}
+
+
+.about{
+    display: flex;
+    gap: 40px;
+}
+
+.footer{
+    font-family: fantasy;
+}
+
+
+.vscode_images{
+    font-size: 10px;
+}
+
+
+
+.html_images{
+    font-size: smaller;
+}
+.css_images{
+    font-size: smaller;
+}
+.JS_codes{
+    font-size: smaller;
+}
